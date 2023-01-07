@@ -4,11 +4,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>To-Do List</h1>
-    <input type="text" id="item" onkeypress="addItemOnEnter(event)" />
-    <button onclick="addItem()">Add</button>
-    <button onclick="clearList()">Clear</button>
-    <ul id="todo-list"></ul>
-    <script src="/to do list with ChatGPT/main.js"></script>
+    <div class="container">
+      <h1>To-Do List</h1>
+      <div class="form">
+        <input type="text" id="item" onkeypress="addItemOnEnter(event)" />
+        <div class="buttons">
+          <button onclick="addItem()">Add</button>
+          <button onclick="clearList()">Clear</button>
+        </div>
+      </div>
+      <ul id="todo-list"></ul>
+    </div>
+    <script src="/main.js"></script>
   </body>
 </html>
