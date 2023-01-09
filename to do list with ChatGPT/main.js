@@ -5,8 +5,10 @@ function addItem() {
   // Add the item to the list
   const list = document.getElementById('todo-list');
   const newItem = document.createElement('li');
+  // const ul = document.querySelector('.ul');
   newItem.innerHTML = item;
   list.appendChild(newItem);
+  // ul.classList.add('active');
 
   // Clear the input field
   document.getElementById('item').value = '';

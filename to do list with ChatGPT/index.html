@@ -4,10 +4,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="page-container">
       <h1>To-Do List</h1>
       <div class="form">
-        <input type="text" id="item" onkeypress="addItemOnEnter(event)" />
+        <input
+          class="form"
+          type="text"
+          id="item"
+          onkeypress="addItemOnEnter(event)"
+        />
         <div class="buttons">
           <button onclick="addItem()">Add</button>
           <button onclick="clearList()">Clear</button>
@@ -15,6 +20,6 @@
       </div>
       <ul id="todo-list"></ul>
     </div>
-    <script src="/main.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
