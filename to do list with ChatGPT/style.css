@@ -42,9 +42,8 @@ h1 {
   gap: 10px;
 }
 
-ul {
-  /* display: none; */
-  border: 5px solid #f309099d;
+.list-item-border {
+  border: 3px solid black;
 }
 
 li {
@@ -61,6 +60,16 @@ button {
   padding: 10px;
   font-size: 16px;
   border-radius: 8px;
+}
+
+.checkbox {
+  display: inline-block;
+  border-color: #3399ff;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
 }
 
 @media (min-width: 1200px) {
