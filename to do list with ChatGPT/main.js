@@ -37,6 +37,11 @@ function addItemOnEnter(event) {
 
 function clearList() {
   // Remove all of the items from the list
-  var list = document.getElementById("todo-list");
+  let list = document.getElementById("todo-list");
   list.innerHTML = "";
+}
+
+function clearCounter() {
+  let counter = document.getElementById("counter");
+  counter.innerHTML = 1;
 }
